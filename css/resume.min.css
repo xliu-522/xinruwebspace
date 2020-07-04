@@ -187,11 +187,11 @@ body {
   }
   
   .text-primary {
-    color: #3375f8!important;
+    color:black!important;
   }
   
   a {
-    color: #80aaff;
+    color: #3375f8;
   }
   
   a:active,a:focus,a:hover {
