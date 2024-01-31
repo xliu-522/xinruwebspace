@@ -40,16 +40,17 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
-        
+      
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#work">Work Experience</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#publications">Publications & Preprints</a>
+        </li>
+        <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#research">Research Experience</a>
-        </li>
+          </li> -->
+        
         <!-- a -->
         <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#besidesResearch">Besides Research</a>
@@ -64,10 +65,10 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Xinru Liu</h1>
-        <div class="subheading mb-5">111 Cummington Mall (B27) · Boston, MA 02215 · (508) 369-1863 ·
+        <div class="subheading mb-5">665 Commonwealth Ave (314) · Boston, MA 02215 · (508) 369-1863 ·
           <a href="#">xinruliu at bu dot edu</a>
         </div>
-        <p class="lead mb-5">I am a Statistics Ph.D. candidate at Boston University supervised by <a href="https://math.bu.edu/people/atchade/">Yves Atchade</a>. My current research focuses on both theoretical and computational aspects of high-dimensional Bayesian statistics, MCMC samplers and optimization, with applications in sparse deep learning and reinforcement learning. My currect ongoing research topics include inverse problems, thompson sampling and soft deep-Q network.
+        <p class="lead mb-5">I am a Statistics Ph.D. candidate at Boston University supervised by <a href="https://math.bu.edu/people/atchade/">Yves Atchade</a>. My current research focuses on both theoretical and computational aspects of high-dimensional Bayesian statistics with applications in sparse deep learning and reinforcement learning. My currect ongoing research topics include inverse problems, thompson sampling and soft deep-Q network.
           
         I obtained my B.A in Mathematics and Computer Science, minor in music performance from Wheaton College (MA). In my leisure time, I love going to classical concerts, playing the piano, and doing outdoor activities.
           
@@ -76,16 +77,100 @@
           <a href="https://www.linkedin.com/in/xinru-liu-64865a123/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <!--<a href="https://github.com/XinruLiu">
-            <i class="fab fa-github"></i> -->
+          <a href="https://github.com/xliu-522">
+            <i class="fab fa-github"></i> 
           </a>
-          <a href="static/xliu_resume.pdf">
+          <a href="static/xliu_resume_DS_MLE_FT_24.pdf">
             <i class="fas fa-file-alt"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=jhuh7YgAAAAJ&hl=en">
+            <i class="fab fa-google"></i>
           </a>
         </div>
       </div>
     </section>
+
     <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="work">
+      <div class="w-100">
+        <h2 class="mb-5">Work Experience</h2>
+        <h2 class="mb-5"></h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Applied Science Intern</h3>
+            <div class="subheading mb-3">Liberty Mutual Insurance Solaria Labs</div>
+            
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="mb-0">June 2023 - August 2023</span>
+          </div>
+          
+        </div>
+        <ul>
+          <li><b>Background:</b> Enhanced underwriting decisions by fine-tuning LLM using Human In The Loop approach.</li>
+          <li>Improved the Flan-T5 LLMs’ performance in classifying risk characteristic queries (10% ↑ in F1-score), using prompt
+            engineering and the Reinforcement Learning from Human Feedback fine-tuning algorithm(PPO).</li>
+          <li> Reduced the GPU memory requirement and computational cost by integrating LoRA reparameterization technique.</li>
+          <li>Facilitated reproducibility among team members by maintaining a GitHub repo adhering to industry best practices.</li>
+        </ul>
+        <br><br>
+
+      
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Graduate Data Science Intern</h3>
+            <div class="subheading mb-3">Liberty Mutual Insurance Office of Data Science</div>
+            
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="mb-0">June 2022 - August 2022</span>
+          </div>
+          
+        </div>
+        <ul>
+          <li><b>Background:</b> Identified similar business descriptions across diverse economic sectors using Hierarchy in NAICS Code.</li>
+          <li><b>Approach 1:</b> Improved the baseline accuracy of semantic search for code prediction by 4% by developing a customized
+            hierarchical similarity metric on MPNet embeddings through Breadth-first search (BFS) algorithm.</li>
+          <li> <b>Approach 2:</b> Boosted classification accuracy from 87% to 95% by engineering a hierarchical NLP classifier that constructs
+            a layered representation linking business embeddings to a structured hierarchy of NAICS codes.
+            </li>
+        </ul>
+        <br><br>
+      </div>
+    </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
+      <div class="w-100">
+        <h2 class="mb-5">Publications & Preprints</h2>
+
+        <!-- <div class="subheading mb-3">Programming Languages &amp; Tools</div> -->
+        <ul>
+          <li>
+            <b>Neural Thompson Sampling for Dynamic Pricing. </b><br>
+            Joint work with Yves Atchade. <i>Working paper. </i>
+          </li>
+          <li> 
+            <a href="http://math.bu.edu/people/atchade/cycle_mcmc.pdf">On cyclical MCMC sampling.</a> <br>
+            Joint work with Liwei Wang, Aaron Matthew, and Yves Atchade. <i>AISTATS, to appear, 2024.</i>
+          </li>
+          
+          <li> 
+            <a href= "https://arxiv.org/abs/2311.06395"> Statistical perspective on unrolling models for inverse problems.</a> <br>
+            Joint work with Yves Atchade and Qiuyun Zhu.  <i>Submitted, 2023.</i>
+          </li>
+          <li>
+            <a href = "https://ieeexplore.ieee.org/abstract/document/8536436"> Multimodal Data Fusion in 3-D Printing Quality Prediction.</a> <br>
+          </li>
+          Joint work with Xiaotong Gui, Qi Tian, and Weihong Guo. <i>IEEE Sensors Letters, DOI
+          10.1109/LSENS.2018.2881475.</i>
+        </ul>
+    </section>
+    
+    <!-- <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
@@ -95,7 +180,7 @@
             <div class="subheading mb-3">Ph.D. Program in Statistics</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="mb-0">Sept 2019 - May 2023 (expected)</span>
+            <span class="mb-0">Sept 2019 - Dec 2024 (expected)</span>
           </div>
         </div>
         <br><br>
@@ -113,24 +198,24 @@
         </div>
 
       </div>
-    </section>
+    </section> -->
 
-    <hr class="m-0">
+    <!-- <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <!-- <div class="subheading mb-3">Programming Languages &amp; Tools</div> -->
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul>
           <li>
             Programming languages: Python, R, Matlab, C/C++, JavaScript, HTML & CSS
           </li>
           <li>Type-setting: Latex, R Markdown</li>
         </ul>
-    </section>
+    </section> -->
 
-    <hr class="m-0">
+    <!-- <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
       <div class="w-100">
@@ -212,12 +297,10 @@
 
       </div>
 
-    </section>
-
-    <hr class="m-0">
+    </section> -->
 
 
-    <hr class="m-0">
+    <!-- <hr class="m-0"> -->
 
     <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
